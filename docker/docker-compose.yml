@@ -6,7 +6,7 @@ services:
   catalog-service:
     depends_on:
       - polar-postgres
-    image: "catalog-service"
+    image: "ghcr.io/michaelegner/catalog-service"
     container_name: "catalog-service"
     ports:
       - 9001:9001
